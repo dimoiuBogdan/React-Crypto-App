@@ -161,7 +161,6 @@ a:hover {
 
 .stats-container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   gap: 40px;
 }
@@ -375,4 +374,8 @@ a:hover {
   flex-direction: column;
   padding: 20px;
   align-items: center;
+}
+
+.ant-card {
+  height: 100% !important;
 }

@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import {
   HomeOutlined,
   MoneyCollectOutlined,
-  BulbOutlined,
   FundOutlined,
   MenuOtulined,
 } from "@ant-design/icons";
@@ -26,9 +25,6 @@ const Navbar = () => {
           </Menu.Item>
           <Menu.Item key="Exchanges" icon={<MoneyCollectOutlined />}>
             <Link to="/exchanges">Exchanges</Link>
-          </Menu.Item>
-          <Menu.Item key="News" icon={<BulbOutlined />}>
-            <Link to="/news">News</Link>
           </Menu.Item>
         </Menu>
       </div>
